@@ -1,0 +1,21 @@
+*{
+    margin:0;
+}
+
+.circle{
+    background-color:red;
+    /* height: 200px; */
+    height: 60vh;
+    /* width: 200px; */
+    width: 60vh;
+    border-radius: 50%;
+    margin:auto;
+    /* margin:auto; horizontaly chejo ko center pe leke rah deta hai */
+    /* margin-top: 100px; */
+    margin-top: 20vh;
+}
+/* how to center a div */
+/* hw agar mein hur chej ko vw kw term pe likhu, kya mai japan ka flags bana sakta hu */
+/* Homework,finalad flag */
+/* Ireland flag */
+/* Indian flag */

@@ -1,0 +1,46 @@
+h2{
+    /* background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue; */
+    background-color: aqua;
+    /* width: 5vw; */
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    border-width: 5px;
+
+    /* shortcuts */
+    /* border:5px brown solid; */
+    
+
+}
+/* when we have 2 option for border width */
+/* it will be allocated to top and botton, right and left */
+h4{
+    background-color: rgb(85, 115, 51);
+    /* border-left-width:10px; */
+    /* border-color: rgb(4, 4, 247); */
+    /* border-left-color: rgb(145, 255, 0); */
+    /* border-style: solid; */
+    /* border-left-style: solid; */
+    border-width: 10px 20px 30px 40px;
+    border-style: solid;
+    border-color: rgb(7, 66, 89);
+    padding: 10px 20px 30px 40px;
+    
+
+}
+ul{
+    background-color: bisque;
+}
+p{
+    background-color: red;
+    border-width: 3px;
+    border-color: black;
+    border-style: dotted;
+    border-style:solid;
+    padding: 56px;
+}

@@ -1,0 +1,42 @@
+h1{
+    background-color: blanchedalmond;
+}
+/* #first_id{
+    background-color: blue;
+}
+.first_class{
+    background-color: aqua;
+}  */
+
+/* jo pahale aayega ushi ka color change haga */
+/* h1{
+    background-color: rosybrown;
+    color:blue;
+    background-color: brown;
+}
+h1{
+    font-size: 30px;
+    background-color: bisque;
+} */
+ /* h1{
+    background-color: aquamarine;
+ } */
+ /* Id use */
+ /* #first_id{
+    background-color: rgb(45, 239, 58);
+ } */
+ /* .first_class{
+    background-color: blueviolet;
+ } */
+ /* class */
+ /* h1[draggable="true"]{
+    background-color: blue;
+ } */
+ /* Attribute selector */
+ /* body h1{
+    background-color: rgb(125, 12, 12);
+ } */
+ /* Descendent */
+ /* body >h1{
+    background-color: rgb(104, 210, 18);
+ } */

@@ -1,0 +1,32 @@
+/* .img1{
+    height: 300px;
+    width: auto;
+    float:right;
+    margin-left: 20px;
+}
+.img2{
+    height: 300px;
+    width: auto;
+    /* float: left; */
+    /* float: right; */
+    /* margin-left: 10px; */
+/* } */
+
+.img1{
+    height:200px;
+    width: 200px;
+    float:right;
+    /* margin-left: 20px; */
+    /* clear: left; */
+    /* clear: both; */
+}
+.img2{
+    height: 200px;
+    width: 200px;
+    /* float: left; */
+    float: right;
+    /* margin-left: 10px; */
+    /* clear:right; */
+    clear: both;
+    /* clear: left; */
+}

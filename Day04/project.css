@@ -1,0 +1,33 @@
+.card{
+    width: 30vw;
+    height: 10vw;
+    background-color: rgb(223, 16, 171);
+    border: 5px rgb(241, 249, 9) solid;
+    padding: 10px;
+    margin: 20px 20px 20px 35vw;
+
+}
+body{
+    background-color: rgb(186, 234, 238);
+}
+h2{
+    /* background-color: green; */
+    color: rgb(8, 7, 66);
+    text-align: center;
+}
+p{
+    text-align:center
+}
+h3{
+    text-align: center;
+}
+/* .card:hover h3{
+    color: rgb(39, 186, 23);
+} */
+.card:hover {
+    /* color: rgb(36, 13, 240); */
+    background-color: rgb(14, 167, 213);
+}
+.card:hover{
+    transform: scale(1.2);
+}

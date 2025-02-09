@@ -1,0 +1,21 @@
+h1{
+color: #94e20d;
+background-color: blue;
+}
+ul{
+    color: #94e20d;
+    background-color: rgb(17, 81, 190);
+}
+/* select by class name */
+ /* you need to apply dot(.) first */
+.first{
+    background-color: #94e20d;
+}
+.second{
+    background-color: chocolate;
+}
+/* select by id (unique) */
+/* # ko use karna hai */
+#third{
+    color:rgb(222, 21, 21);
+}

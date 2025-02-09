@@ -1,0 +1,37 @@
+/* body{
+    background-color: aqua;
+} */
+*{
+    background-color: rgb(150, 157, 142);
+    color: rgb(28, 27, 45);
+}
+/* Universal selector*! */
+/* h1{
+    background-color: aqua;
+}
+h2{
+    background-color: aqua;
+}
+
+
+p{
+    background-color: aqua;
+} */
+ /* select by group| group selector */
+ /* h1,h2,p,#third{
+    background-color: aqua;
+    color: brown;
+ } */
+
+ /* select by attribute */
+ h2[draggable="true"]{
+    background-color: antiquewhite;
+ }
+ /* select by descendent */
+ section p{
+    background-color: red;
+ }
+ /* select by child*/
+ section > p{
+    background-color: blue;
+ }

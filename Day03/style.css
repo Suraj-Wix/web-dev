@@ -1,0 +1,19 @@
+h1{
+    /* font-size:10vw; */
+    /* font-weight: 900; */
+    /* font-style:italic; */
+    /* font-variant: small-caps; */
+    font-style: normal;
+    /* text-transform:uppercase; */
+    /* font-stretch:expanded; */
+}
+/* Font stretch home work */
+/* font variant home work */
+
+p{
+    /* line-height: 30px; */
+    /* letter-spacing: 2px; */
+    word-spacing: 10px;
+
+}
+/* % of viewport width */

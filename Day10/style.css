@@ -1,0 +1,75 @@
+.container{
+    background-color: aquamarine;
+    height: 700px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* sab ko equal equal part divide kr dega */
+
+    /* justify-content: space-between; */
+    /* 1st and last ko chhod kr equal equal part me divide ho jayega */
+    /* justify-content: space-evenly; */
+    /* sab ko evenly evenly baat do */
+    /* align-items: end; */
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: stretch; */
+    /* align-items: stretch; tab kam krege jab tum height hata doge box se */
+
+    /* agar one line me  kr na hai hello and coder ko then use  align-items:baseline */
+    /* align-items: baseline; */
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* agar dono ko bitch me lana hai toh  justify-content: center;, algin-item:center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    align-content: center;
+    /* align-content: space-evenly; */
+    align-content: space-between;
+
+
+
+}
+/* flex direction will identify my main axis */
+/* row: horizontal is main axis */
+ /* column: vertical is main axis */
+ /* justify content it will around main axis */
+ /* align item works around cross axis */
+.box{
+    height: 150px;
+    width: 150px;
+    border:5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-size: bold;
+    
+   
+
+}
+/* .first{
+    font-size: 50px;
+    margin: 20px;
+}
+.second{
+    font-size: 25px;
+} */
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: rgb(13, 255, 0);
+}
+.box3{
+    background-color: rgb(215, 246, 13);
+}
+.box4{
+    background-color: rgb(85, 0, 255);
+}

@@ -1,0 +1,14 @@
+h1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px rgb(196, 8, 8) solid;
+    border-radius: 20px;
+    margin: 20px 90px 150px 40px;
+    box-sizing: border-box;
+    
+
+
+}
+/* margin left margin right */

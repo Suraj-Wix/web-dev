@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: blueviolet;
+    position: fixed;
+    /* width: 100%; */
+     top:0px;
+    left:0px;
+    right:0px
+ 
+}
+main{
+/* padding-top: 100px; */
+margin-top: 50px;
+}
