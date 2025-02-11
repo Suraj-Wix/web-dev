@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    /* flex-direction: column; */
+    flex-direction: row;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border:  2px solid black;
+}
+/* flex item */
+/* order it defines the order of element */
+/* deafult order is zero */
+.box1{
+    background-color: rgb(84, 108, 108);
+    /* order: 1; */
+    
+}
+.box2{
+    background-color: rgb(29, 29, 198);
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* width: 600px; */
+    /* flex-basis: 300px; */
+    /* align-self:flex-start; */
+    /* flex:[flex-grow][flex-shrink][flex-basis]; */
+    /* flex: 2 2 200px; */
+}
+.box3{
+    background-color: brown;
+    /* order: -1; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
+    /* align-self: flex-end; */
+}
+.box4{
+    background-color: rgb(184, 119, 21);
+    /* order: 5; */
+    /* flex-shrink: 3; */
+}
+
+/* Desktop */
+
+/* Table */
+
+/* Mobile */

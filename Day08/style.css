@@ -5,7 +5,8 @@ body{
     background-color: rgb(253,243,243);
 }
 .image{
-    position: relative;}
+    position: relative;
+}
 .card:hover{
     
     background-color: white;
