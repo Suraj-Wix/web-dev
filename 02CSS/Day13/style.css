@@ -1,0 +1,54 @@
+/* h1{ */
+    /* color: orange; */
+    /* text-align: center; */
+    /* background-color: aquamarine; */
+    /* text-align: right; */
+    /* text-align:left */
+    /* text-align: justify; */
+/* } */
+/* text align: left,right,center */
+/* .container{
+
+    text-align: center;
+    background-color: aqua;
+}
+h1{
+    background-color: blue;
+    
+}
+p{
+    background-color: blanchedalmond;
+} */
+ /* p{
+    background-color: aqua;
+    text-align: justify;
+    text-align-last: right;
+ } */
+  h1{
+     /* text-decoration: line-through; */
+     /* text-decoration: overline underline;
+     text-decoration-color: aqua;
+     text-decoration-style: dashed; */
+
+    /* direction:rtl;
+    unicode-bidi: bidi-override; */
+
+    /* text-transform:lowercase; */
+    text-transform: uppercase;
+  }
+
+  /* span{
+    vertical-align: sub; 
+    vertical-align: super;
+    
+  } */
+
+  p{
+    /* text-indent: 200px;
+    letter-spacing:5px;
+    line-height: 25px; */
+    /* text-shadow:2px 2px ; */
+    
+  }
+
+  

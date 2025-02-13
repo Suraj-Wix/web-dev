@@ -1,0 +1,12 @@
+.container{
+    height: 800px;
+    width:800px;
+    background-color: aqua;
+    padding: 10px;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    margin: 10px;
+}

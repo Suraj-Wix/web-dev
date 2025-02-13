@@ -1,0 +1,53 @@
+.container{
+    background-color: blue;
+    /* height: 500px; */
+    /* width: 400px; */
+    display: flex;
+}
+/* general css meine desktop ke likhi the */
+
+.box{
+    height: 300px;
+    width: 300px;
+    color: red;
+    background-color:aqua;
+    margin: 30px;
+}
+
+/* Mobile phone */
+
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    
+}
+
+/* Tablet */
+/* max width 900px, 601px min Tablet */
+
+@media(min-widht:601px) and (max-width:900px){
+  .container{
+     flex-direction: column;
+   }
+
+}
+
+
+
+/* @media(max-width:500px){
+    .container{
+        background-color: aqua;
+        height: 200px;
+        width: 200px;
+    }
+} */
+
+.container{
+    
+}
+
+@media(min-width:901px)
+{
+
+}
