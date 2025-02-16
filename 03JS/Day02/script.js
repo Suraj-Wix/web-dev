@@ -45,6 +45,9 @@ console.log(bal);
 let a=3445344334345566666666444n;
 console.log(a);
 
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MIN_SAFE_INTEGER);
+
 
 // Non Primitive Data Type
 // Array,object,function
