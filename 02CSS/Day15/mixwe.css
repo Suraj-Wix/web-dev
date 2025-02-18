@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    padding: 10rem;
+}
+.container{
+height:100%;
+width: 100%;
+background-color: white;
+display: grid;
+grid-template-columns: repeat(2,200px);
+grid-template-rows: repeat(2,200px);
+gap: 1rem;
+/* justify-content: center; */
+/* justify-content: right; */
+/* align-content: center; */
+justify-items: center;
+justify-items: end;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(230, 178, 6);
+    font-size: 2rem;
+}

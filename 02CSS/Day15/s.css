@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    gap: 1rem;
+    background-color: black;
+    padding: 4rem;
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: minmax(100px,200px) minmax(100px,200px) minmax(100px,200px) minmax(100px,200px); */
+    /* grid-template-columns: repeat(auto-fit,minmax(100px,200px)); */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(2,1fr);
+    /* justify-items: end; */
+    /* align-items: end; */
+
+    /* justify-items: center; */
+    /* align-items: center; */
+
+    /* place-items: center; */
+    /* place-items: end; */
+      /* place-items: start end; */
+      place-items:center end;
+      /* align-items:  justify content; */
+    
+}
+
+/* Auto-fill auto-fit */
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    font-size: 2rem;
+    color:black;
+}
+.Box2{
+    justify-self: start;
+    align-self: flex-start;
+}
