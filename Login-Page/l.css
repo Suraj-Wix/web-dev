@@ -1,0 +1,39 @@
+/* Inter Font already imported in index.html */
+
+/* Initial hidden state for fade-in */
+.initial-hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1s ease-in-out;
+}
+.initial-hidden.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Floating Background Shapes */
+.floating-shape {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4a90e2, #a855f7);
+  opacity: 0.25;
+  animation: float 12s infinite ease-in-out alternate;
+  filter: blur(60px);
+}
+#shape-1 { top: -100px; left: -100px; }
+#shape-2 { bottom: -120px; right: -100px; }
+#shape-3 { top: 50%; left: 60%; }
+
+@keyframes float {
+  0%   { transform: translateY(0) translateX(0); }
+  50%  { transform: translateY(-40px) translateX(30px); }
+  100% { transform: translateY(20px) translateX(-20px); }
+}
+
+/* Button click animation */
+.btn-clicked {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}
