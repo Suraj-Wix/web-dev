@@ -1,0 +1,105 @@
+:root {
+    --glow-color-A: #ffffff; 
+    --glow-color-B: #ff0000; /* Red for danger */
+    --segment-height: 28px; 
+    --segment-width: 12px;  
+    --leg-length: 50px;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #0d0d2b; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Mobile Aspect Ratio for Vertical Video */
+#skeleton-container {
+    position: relative;
+    width: 90vw; 
+    height: 90vh; 
+    max-width: 450px; 
+    max-height: 800px;
+}
+
+@keyframes pulse-glow {
+    0% { opacity: 0.8; filter: brightness(1); transform: scale(1); }
+    50% { opacity: 1; filter: brightness(1.8); transform: scale(1.05); }
+    100% { opacity: 0.8; filter: brightness(1); transform: scale(1); }
+}
+
+/* --- Centipede Segment Styling (UPDATED for Border) --- */
+.segment {
+    position: absolute;
+    width: var(--segment-width);
+    height: var(--segment-height);
+    background-color: transparent; /* Background is now transparent to show the border glow */
+    border: 2px solid var(--glow-color-A); /* Strong white border */
+    border-radius: calc(var(--segment-width) / 2); 
+    transform-origin: 50% 50%;
+    z-index: 10;
+    
+    box-shadow: 
+        0 0 8px var(--glow-color-B),    
+        0 0 15px var(--glow-color-A),   
+        0 0 30px var(--glow-color-B);   
+
+    animation: pulse-glow 2s infinite ease-in-out; 
+}
+/* ------------------------------------------- */
+
+/* --- DANGEROUS FACE STYLING (NEW) --- */
+.mother-centipede.head {
+    /* Head is the first segment (index 0) of the Mother */
+    --segment-width: 18px;  /* 50% wider */
+    --segment-height: 40px; /* Much longer */
+    border-color: #ff0000; /* Head border is red */
+    border-width: 3px;
+    background-color: #ff000033; /* Slightly red filled */
+    z-index: 1000 !important; /* Always on top */
+}
+
+/* Baby Centipede Styling */
+.baby-segment {
+    --segment-height: 20px;
+    --segment-width: 8px;
+    --glow-color-A: #aaffff; 
+    --glow-color-B: #0088ff; 
+    animation-duration: 3s; 
+}
+.baby-segment.head {
+    /* Baby heads are still bigger than their body */
+    --segment-height: 25px;
+    --segment-width: 10px;
+    z-index: 999 !important; 
+}
+
+/* Legs and Hand Styling (Using the dynamic colors) */
+.leg {
+    position: absolute;
+    width: 3px; 
+    height: var(--leg-length); 
+    background-color: var(--glow-color-A);
+    transform-origin: top center;
+    box-shadow: 0 0 5px var(--glow-color-B), 0 0 10px var(--glow-color-A);
+    z-index: 5;
+}
+
+.baby-segment .leg {
+    --leg-length: 30px; 
+}
+
+.hand-detail {
+    position: absolute;
+    bottom: 0;
+    left: -6px; 
+    width: 15px; 
+    height: 15px;
+    border: 2px solid var(--glow-color-A);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--glow-color-B), 0 0 15px var(--glow-color-A);
+}
