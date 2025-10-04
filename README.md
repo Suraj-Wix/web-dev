@@ -17,7 +17,7 @@ The purpose of this repository is to **track learning, practice projects, and cr
 - **Description:** Full-stack applications with **React frontend**, **Node.js + Express backend**, and **MongoDB database**.  
 ### 4. Mini & Challenge Projects
 - **Folder:** `Extras`
-- **Description:** Calculators, login forms, and small practice projects from the NEXUS curriculum.  
+- **Description:** portfollio website, login forms, and small practice projects from the NEXUS curriculum.  
 ---
 ## 🛠 Technologies
 - **Frontend:** HTML5, CSS3, JavaScript, React.js  
