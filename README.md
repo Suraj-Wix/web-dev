@@ -1,4 +1,4 @@
-# 🌐 Web Development Portfolio - Learning Journey
+# 🌐 Web Development - Learning Journey
 ---
 ## 📖 About This Repository
 This repository contains my **web development projects** while learning through the **Coder Army NEXUS Program**.  
